@@ -13,7 +13,7 @@ $story1_1 = @{
     "backend/app/__init__.py" = Test-Path "backend/app/__init__.py"
 }
 foreach ($item in $story1_1.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
@@ -24,7 +24,7 @@ $story1_2 = @{
     ".env.example" = Test-Path ".env.example"
 }
 foreach ($item in $story1_2.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
@@ -46,7 +46,7 @@ $story1_3 = @{
     "backend/tests/e2e/" = Test-Path "backend/tests/e2e"
 }
 foreach ($item in $story1_3.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
@@ -57,7 +57,7 @@ $story1_4 = @{
     "backend/uv.lock" = Test-Path "backend/uv.lock"
 }
 foreach ($item in $story1_4.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
@@ -68,7 +68,7 @@ $story1_5 = @{
     "backend/app/config.py" = Test-Path "backend/app/config.py"
 }
 foreach ($item in $story1_5.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
@@ -81,7 +81,7 @@ $story1_6 = @{
     "backend/app/utils/rabbitmq_client.py" = Test-Path "backend/app/utils/rabbitmq_client.py"
 }
 foreach ($item in $story1_6.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
@@ -92,7 +92,7 @@ $story1_7 = @{
     "backend/app/api/v1/health.py" = Test-Path "backend/app/api/v1/health.py"
 }
 foreach ($item in $story1_7.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
@@ -108,7 +108,7 @@ $story1_8 = @{
     "backend/app/api/v1/admin.py" = Test-Path "backend/app/api/v1/admin.py"
 }
 foreach ($item in $story1_8.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
@@ -124,7 +124,7 @@ $story1_9 = @{
     "backend/app/utils/exceptions.py" = Test-Path "backend/app/utils/exceptions.py"
 }
 foreach ($item in $story1_9.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
@@ -136,7 +136,7 @@ $story1_10 = @{
     "backend/migrations/alembic.ini" = Test-Path "backend/alembic.ini"
 }
 foreach ($item in $story1_10.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
@@ -149,7 +149,7 @@ $story1_11 = @{
     "backend/tests/e2e/" = Test-Path "backend/tests/e2e"
 }
 foreach ($item in $story1_11.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
@@ -159,7 +159,7 @@ $story1_12 = @{
     "backend/.pre-commit-config.yaml" = Test-Path "backend/.pre-commit-config.yaml"
 }
 foreach ($item in $story1_12.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
@@ -172,7 +172,7 @@ $story1_13 = @{
     "frontend/app/" = Test-Path "frontend/app"
 }
 foreach ($item in $story1_13.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
@@ -183,7 +183,7 @@ $story1_14 = @{
     "frontend/.env.local" = Test-Path "frontend/.env.local"
 }
 foreach ($item in $story1_14.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
@@ -204,7 +204,7 @@ $story1_15 = @{
     "frontend/lib/websocket/reconnect.ts" = Test-Path "frontend/lib/websocket/reconnect.ts"
 }
 foreach ($item in $story1_15.GetEnumerator()) {
-    $status = if ($item.Value) { "✓" } else { "✗" }
+    $status = if ($item.Value) { "[OK]" } else { "[X]" }
     Write-Host "  $status $($item.Key)" -ForegroundColor $(if ($item.Value) { "Green" } else { "Red" })
 }
 
