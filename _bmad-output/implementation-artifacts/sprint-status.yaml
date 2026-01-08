@@ -54,8 +54,8 @@ development_status:
   1-11-configure-backend-testing-infrastructure: done
   1-12-set-up-backend-development-tooling: review
   1-13-initialize-frontend-next-js-application: review
-  1-14-configure-frontend-dependencies-and-environment: ready-for-dev
-  1-15-set-up-frontend-api-client-and-websocket-structure: ready-for-dev
+  1-14-configure-frontend-dependencies-and-environment: done
+  1-15-set-up-frontend-api-client-and-websocket-structure: done
   1-16-create-frontend-component-and-app-router-structure: ready-for-dev
   1-17-configure-frontend-code-quality-and-testing-tools: ready-for-dev
   1-18-set-up-docker-compose-development-environment: ready-for-dev
