@@ -59,7 +59,7 @@ so that courses are discoverable via search engines.
 ## Dev Notes
 
 - **Architecture Patterns**: Dynamic metadata generation. Schema.org structured data. SEO best practices.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `frontend/app/courses/[slug]/page.tsx` - Updated with metadata
   - `frontend/app/sitemap.ts` - XML sitemap generation
   - `frontend/app/robots.ts` - Robots.txt configuration
@@ -98,4 +98,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

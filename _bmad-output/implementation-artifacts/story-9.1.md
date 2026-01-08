@@ -47,7 +47,7 @@ so that I can monitor system status and performance.
 ## Dev Notes
 
 - **Architecture Patterns**: Health monitoring dashboard. Real-time metrics. Service status tracking.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/admin/health_metrics.py` - Health metrics API
   - `frontend/app/admin/health/page.tsx` - Health dashboard
   - `frontend/components/admin/HealthStatusIndicator.tsx` - Status indicators
@@ -85,4 +85,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

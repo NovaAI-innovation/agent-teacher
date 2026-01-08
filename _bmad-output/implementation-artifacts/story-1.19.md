@@ -55,7 +55,7 @@ so that I can quickly initialize and start the development environment.
 ## Dev Notes
 
 - **Architecture Patterns**: Utility scripts for common development tasks. Bash scripts for cross-platform compatibility (or PowerShell for Windows).
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `scripts/setup.sh` - Project setup script
   - `scripts/start-dev.sh` - Start development environment script
   - `scripts/stop-dev.sh` - Stop development environment script
@@ -94,4 +94,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

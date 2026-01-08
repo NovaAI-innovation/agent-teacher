@@ -49,7 +49,7 @@ so that I can learn from any device I prefer.
 ## Dev Notes
 
 - **Architecture Patterns**: Mobile-first responsive design. Tailwind CSS responsive utilities. Next.js Image optimization.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - All frontend components - Updated with responsive classes
   - `frontend/app/globals.css` - Responsive styles
   - `frontend/tailwind.config.js` - Responsive breakpoints

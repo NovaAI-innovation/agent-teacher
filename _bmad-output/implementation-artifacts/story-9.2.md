@@ -45,7 +45,7 @@ so that I can track content creation progress and issues.
 ## Dev Notes
 
 - **Architecture Patterns**: Generation monitoring. Job tracking. Real-time updates.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/admin/course_generation.py` - Generation monitoring API
   - `frontend/app/admin/course-generation/page.tsx` - Generation dashboard
   - `frontend/components/admin/GenerationJobCard.tsx` - Job component
@@ -83,4 +83,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

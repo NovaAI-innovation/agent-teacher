@@ -46,7 +46,7 @@ so that I can improve my understanding and score.
 ## Dev Notes
 
 - **Architecture Patterns**: Multiple attempts tracking. Attempt history. Improvement tracking.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/assessment_response.py` - Updated with attempt tracking
   - `backend/app/api/v1/assessments.py` - Retake API
   - `frontend/app/learning/[courseId]/modules/[moduleId]/assessment/results/page.tsx` - Updated with retake button
@@ -85,4 +85,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

@@ -41,7 +41,7 @@ so that I can monitor the platform's autonomous improvement capabilities.
 ## Dev Notes
 
 - **Architecture Patterns**: Metrics dashboard. Trend visualization. Time-series analysis.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/admin/self_improvement_metrics.py` - Metrics API
   - `frontend/app/admin/self-improvement/page.tsx` - Metrics dashboard
   - `frontend/components/admin/MetricsChart.tsx` - Trend visualization
@@ -79,4 +79,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

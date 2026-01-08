@@ -55,7 +55,7 @@ so that code quality checks run automatically.
 ## Dev Notes
 
 - **Architecture Patterns**: GitHub Actions for CI/CD. Separate workflows for backend and frontend. Caching for faster builds.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `.github/workflows/ci-backend.yml` - Backend CI pipeline
   - `.github/workflows/ci-frontend.yml` - Frontend CI pipeline
   - `.github/workflows/deploy.yml` - Deployment pipeline placeholder
@@ -94,4 +94,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

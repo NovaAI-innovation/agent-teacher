@@ -40,7 +40,7 @@ so that I can customize platform behavior.
 ## Dev Notes
 
 - **Architecture Patterns**: Configuration management. Settings persistence. Admin interface.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/platform_settings.py` - Platform settings model
   - `backend/app/api/v1/admin/settings.py` - Settings API
   - `frontend/app/admin/settings/page.tsx` - Settings page
@@ -78,4 +78,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

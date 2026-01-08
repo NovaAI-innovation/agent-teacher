@@ -32,4 +32,3 @@ workflow_status:
   test-design: optional
   implementation-readiness: required
   sprint-planning: required
-

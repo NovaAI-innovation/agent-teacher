@@ -45,7 +45,7 @@ so that content quality improves autonomously.
 ## Dev Notes
 
 - **Architecture Patterns**: Automated update triggers. Quality gate integration. Content versioning.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/self_improvement/update_trigger.py` - Update trigger service
   - `backend/app/models/content_update.py` - Update tracking model
   - `backend/orchestration/workflows/content_update_workflow.py` - Update workflow
@@ -83,4 +83,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

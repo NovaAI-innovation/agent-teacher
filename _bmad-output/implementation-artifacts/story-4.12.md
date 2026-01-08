@@ -49,7 +49,7 @@ so that storage is optimized and costs are controlled.
 ## Dev Notes
 
 - **Architecture Patterns**: Storage lifecycle management. Hot/archive/cleanup states. Cost optimization.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/content.py` - Updated with storage_state
   - `backend/app/services/storage/lifecycle_manager.py` - Lifecycle management service
   - `backend/app/services/storage/access_tracker.py` - Access tracking
@@ -88,4 +88,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

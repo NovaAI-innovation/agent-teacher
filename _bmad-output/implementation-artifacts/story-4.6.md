@@ -45,7 +45,7 @@ so that course content is structured and complete.
 ## Dev Notes
 
 - **Architecture Patterns**: Sequential content generation. Hierarchical content structure. Agent coordination.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/agents/curriculum_designer_agent.py` - Updated for unit generation
   - `backend/app/services/agents/content_generator_agent.py` - Content Generator Agent
   - `backend/orchestration/workflows/course_generation_workflow.py` - Updated workflow
@@ -84,4 +84,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

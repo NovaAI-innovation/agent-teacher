@@ -39,7 +39,7 @@ so that I can get help without leaving my learning context.
 ## Dev Notes
 
 - **Architecture Patterns**: In-context tutoring. Overlay/modal interface. Seamless integration.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `frontend/app/learning/[courseId]/modules/[moduleId]/page.tsx` - Updated module page
   - `frontend/components/tutoring/TutoringOverlay.tsx` - Tutoring overlay component
   - `frontend/components/tutoring/TutoringChat.tsx` - Tutoring chat component
@@ -77,4 +77,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

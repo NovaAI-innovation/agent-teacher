@@ -45,7 +45,7 @@ so that I can monitor content quality across the platform.
 ## Dev Notes
 
 - **Architecture Patterns**: Quality metrics dashboard. Trend visualization. Report export.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/admin/quality_metrics.py` - Quality metrics API
   - `frontend/app/admin/quality-metrics/page.tsx` - Quality dashboard
   - `frontend/components/admin/QualityChart.tsx` - Quality visualization
@@ -83,4 +83,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

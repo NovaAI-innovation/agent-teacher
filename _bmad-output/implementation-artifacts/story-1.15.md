@@ -55,7 +55,7 @@ so that the frontend can communicate with backend services.
 ## Dev Notes
 
 - **Architecture Patterns**: Axios instance with interceptors for authentication and error handling. WebSocket client for real-time communication.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `frontend/lib/api/client.ts` - Axios client configuration
   - `frontend/lib/api/endpoints.ts` - API endpoint constants
   - `frontend/lib/api/*.ts` - API module files (auth, courses, learning, etc.)
@@ -96,4 +96,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

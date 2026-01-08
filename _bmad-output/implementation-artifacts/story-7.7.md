@@ -48,7 +48,7 @@ so that I can celebrate my learning accomplishments.
 ## Dev Notes
 
 - **Architecture Patterns**: Achievement tracking. Milestone detection. Celebratory display.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/achievement.py` - Achievement model
   - `backend/app/services/progress_service.py` - Achievement detection
   - `backend/app/api/v1/achievements.py` - Achievement API
@@ -88,4 +88,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

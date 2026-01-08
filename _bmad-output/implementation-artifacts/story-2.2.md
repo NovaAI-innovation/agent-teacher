@@ -61,7 +61,7 @@ so that I can access my account and enrolled courses.
 ## Dev Notes
 
 - **Architecture Patterns**: JWT-based authentication with access and refresh tokens. Secure token storage on client side.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/utils/jwt.py` - JWT token utilities
   - `backend/app/api/v1/auth.py` - Login endpoint
   - `backend/app/services/auth_service.py` - Login service
@@ -102,4 +102,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

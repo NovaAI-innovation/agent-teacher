@@ -35,7 +35,7 @@ so that I can show learners their overall course completion.
 ## Dev Notes
 
 - **Architecture Patterns**: Aggregated progress tracking. Hierarchical calculation. Course-level metrics.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/course_progress.py` - Course progress model
   - `backend/app/services/progress_service.py` - Updated progress service
   - `backend/app/api/v1/progress.py` - Updated progress API
@@ -73,4 +73,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

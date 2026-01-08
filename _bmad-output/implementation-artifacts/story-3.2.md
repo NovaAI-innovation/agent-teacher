@@ -53,7 +53,7 @@ so that I can discover courses I'm interested in learning.
 ## Dev Notes
 
 - **Architecture Patterns**: Paginated API with caching. React Query for data fetching. Responsive grid layout.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/courses.py` - Courses list endpoint
   - `frontend/app/courses/page.tsx` - Courses browsing page
   - `frontend/components/course/CourseCard.tsx` - Course card component
@@ -93,4 +93,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

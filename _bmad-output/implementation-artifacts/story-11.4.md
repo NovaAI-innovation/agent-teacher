@@ -45,7 +45,7 @@ so that I can learn from the educational materials.
 ## Dev Notes
 
 - **Architecture Patterns**: Screen reader accessibility. Semantic HTML. ARIA labels. Content structure.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - Course content components - Updated for screen reader accessibility
   - Content display components - Updated with semantic HTML
   - Interactive elements - Updated with ARIA labels

@@ -44,7 +44,7 @@ so that learners always have access to high-quality content.
 ## Dev Notes
 
 - **Architecture Patterns**: Automated rollback. Quality degradation detection. Version restoration.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/monitoring/quality_degradation_detector.py` - Degradation detection
   - `backend/app/services/content/rollback_service.py` - Rollback service
   - `backend/orchestration/workflows/rollback_workflow.py` - Rollback workflow
@@ -83,4 +83,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

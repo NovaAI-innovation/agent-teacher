@@ -43,7 +43,7 @@ so that I can see my overall learning journey.
 ## Dev Notes
 
 - **Architecture Patterns**: Progress dashboard. Multi-course view. Visual progress indicators.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/progress.py` - Progress dashboard API
   - `frontend/app/learning/page.tsx` or `frontend/app/progress/page.tsx` - Progress dashboard
   - `frontend/components/progress/CourseProgressCard.tsx` - Progress card component
@@ -82,4 +82,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

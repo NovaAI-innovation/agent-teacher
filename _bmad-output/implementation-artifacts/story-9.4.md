@@ -40,7 +40,7 @@ so that I can control content quality standards.
 ## Dev Notes
 
 - **Architecture Patterns**: Configuration management. Quality thresholds. Benchmark settings.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/quality_config.py` - Quality configuration model
   - `backend/app/api/v1/admin/quality_config.py` - Configuration API
   - `frontend/app/admin/quality-config/page.tsx` - Configuration page
@@ -78,4 +78,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

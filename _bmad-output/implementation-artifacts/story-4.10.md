@@ -46,7 +46,7 @@ so that content quality improves over time.
 ## Dev Notes
 
 - **Architecture Patterns**: Content versioning. Learner-content state alignment. Quality-driven updates.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/content_version.py` - Content version model
   - `backend/app/services/content/content_update_service.py` - Content update service
   - `backend/orchestration/workflows/content_update_workflow.py` - Update workflow
@@ -84,4 +84,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

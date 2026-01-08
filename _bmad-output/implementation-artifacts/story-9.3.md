@@ -39,7 +39,7 @@ so that I can create new courses on demand.
 ## Dev Notes
 
 - **Architecture Patterns**: Course generation trigger. Workflow integration. Progress tracking.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/admin/courses.py` - Generation trigger API
   - `frontend/app/admin/course-generation/new/page.tsx` - Generation request form
   - `backend/orchestration/workflows/course_generation_workflow.py` - Generation workflow
@@ -77,4 +77,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

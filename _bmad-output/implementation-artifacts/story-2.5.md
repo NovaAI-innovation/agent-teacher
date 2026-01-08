@@ -70,7 +70,7 @@ so that I can manage my profile information and preferences.
 ## Dev Notes
 
 - **Architecture Patterns**: REST API for account management. Email verification for security. Password verification for sensitive changes.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/user.py` - Updated User model
   - `backend/app/api/v1/profile.py` - Account settings endpoints
   - `backend/app/services/user_service.py` - User settings service
@@ -110,4 +110,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

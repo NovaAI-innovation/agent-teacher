@@ -68,7 +68,7 @@ so that I can run the entire stack locally with one command.
 ## Dev Notes
 
 - **Architecture Patterns**: Docker Compose for local development orchestration. Hot reloading for fast development iteration.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `docker-compose.yml` - Docker Compose configuration
   - `backend/Dockerfile` - Backend Docker image (if needed)
   - `frontend/Dockerfile` - Frontend Docker image (if needed)
@@ -107,4 +107,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

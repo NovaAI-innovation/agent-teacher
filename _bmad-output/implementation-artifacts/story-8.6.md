@@ -45,7 +45,7 @@ so that the platform becomes more autonomous.
 ## Dev Notes
 
 - **Architecture Patterns**: Learning system. Intervention tracking. Autonomy measurement.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/human_intervention.py` - Intervention tracking model
   - `backend/app/services/self_improvement/learning_system.py` - Learning system
   - `backend/app/api/v1/admin/intervention_metrics.py` - Intervention metrics API
@@ -84,4 +84,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

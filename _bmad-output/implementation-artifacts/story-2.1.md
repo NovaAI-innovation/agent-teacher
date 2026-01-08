@@ -65,7 +65,7 @@ so that I can access the learning platform.
 ## Dev Notes
 
 - **Architecture Patterns**: REST API for registration. Password hashing with bcrypt/Argon2. Email uniqueness validation.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/user.py` - User model
   - `backend/app/api/v1/auth.py` - Registration endpoint
   - `backend/app/services/auth_service.py` - Registration service logic
@@ -106,4 +106,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

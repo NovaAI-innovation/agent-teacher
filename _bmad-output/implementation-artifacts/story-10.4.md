@@ -46,7 +46,7 @@ so that data is retained only as long as necessary and complies with regulations
 ## Dev Notes
 
 - **Architecture Patterns**: Data retention. Automated cleanup. Policy enforcement. Audit logging.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/retention_policy.py` - Retention policy model
   - `backend/app/services/privacy/retention_service.py` - Retention service
   - `backend/orchestration/tasks/retention_cleanup_task.py` - Cleanup task
@@ -86,4 +86,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

@@ -55,7 +55,7 @@ so that I can quickly find courses matching my interests.
 ## Dev Notes
 
 - **Architecture Patterns**: Full-text search with filtering. Debounced search for performance. Client-side highlighting.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/courses.py` - Search endpoint
   - `backend/app/services/course_service.py` - Search service
   - `frontend/components/course/CourseSearch.tsx` - Search component
@@ -95,4 +95,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

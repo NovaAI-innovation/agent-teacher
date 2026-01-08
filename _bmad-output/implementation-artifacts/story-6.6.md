@@ -46,7 +46,7 @@ so that I can continue conversations after interruptions.
 ## Dev Notes
 
 - **Architecture Patterns**: Session persistence. State management. Session restoration.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/tutoring_session.py` - Updated with persistence
   - `backend/app/api/v1/tutoring.py` - Session restore API
   - `backend/app/services/tutoring_service.py` - Session restore service
@@ -85,4 +85,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

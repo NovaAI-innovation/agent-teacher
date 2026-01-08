@@ -53,7 +53,7 @@ so that content generation can continue even when individual agents fail.
 ## Dev Notes
 
 - **Architecture Patterns**: Circuit breaker pattern. Exponential backoff retry. Dead letter queues. Fallback mechanisms.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/utils/circuit_breaker.py` - Circuit breaker implementation
   - `backend/app/utils/retry.py` - Retry logic with exponential backoff
   - `backend/app/services/orchestration/fallback_handler.py` - Fallback mechanisms
@@ -92,4 +92,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

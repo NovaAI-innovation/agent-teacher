@@ -45,7 +45,7 @@ so that I can review my performance and learn from mistakes.
 ## Dev Notes
 
 - **Architecture Patterns**: Results persistence. Learning history. Accessible results display.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/assessments.py` - Results API
   - `frontend/app/learning/[courseId]/modules/[moduleId]/assessment/results/page.tsx` - Results page
   - `frontend/components/assessment/AnswerComparison.tsx` - Answer comparison component
@@ -83,4 +83,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

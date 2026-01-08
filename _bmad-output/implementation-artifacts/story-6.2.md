@@ -40,7 +40,7 @@ so that tutoring responses are contextually relevant.
 ## Dev Notes
 
 - **Architecture Patterns**: Knowledge base integration. Context-aware queries. Agent-based tutoring.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/knowledge/knowledge_base.py` - Updated knowledge base service
   - `backend/app/services/agents/tutor_agent.py` - Tutor agent
   - `backend/app/services/tutoring_service.py` - Updated tutoring service
@@ -78,4 +78,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

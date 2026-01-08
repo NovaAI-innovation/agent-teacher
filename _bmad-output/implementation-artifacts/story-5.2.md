@@ -52,7 +52,7 @@ so that I can learn from the course materials.
 ## Dev Notes
 
 - **Architecture Patterns**: Content access with enrollment verification. Progress tracking. Accessible content display.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/learning.py` - Learning content API
   - `frontend/app/learning/[courseId]/page.tsx` - Learning page
   - `frontend/components/learning/ContentDisplay.tsx` - Content display component
@@ -91,4 +91,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

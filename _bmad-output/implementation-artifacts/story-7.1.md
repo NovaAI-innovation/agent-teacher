@@ -43,7 +43,7 @@ so that I can show learners their completion status for individual modules.
 ## Dev Notes
 
 - **Architecture Patterns**: Progress tracking. Real-time updates. Status management.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/module_progress.py` - Module progress model
   - `backend/app/services/progress_service.py` - Progress tracking service
   - `backend/app/api/v1/progress.py` - Progress API
@@ -81,4 +81,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

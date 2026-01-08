@@ -37,7 +37,7 @@ _This document builds collaboratively through step-by-step discovery. Sections a
 **Scale & Complexity:**
 - **Primary domain**: Full-stack web application (MPA) with sophisticated multi-agent backend orchestration
 - **Complexity level**: High/Enterprise — Complex orchestration with autonomous capabilities, real-time interactions, and self-improving systems
-- **Estimated architectural components**: 
+- **Estimated architectural components**:
   - 17+ specialized agents requiring coordination
   - Two-layer knowledge architecture (Supabase + mem0)
   - Real-time WebSocket infrastructure
@@ -97,7 +97,7 @@ _This document builds collaboratively through step-by-step discovery. Sections a
 - **Workflow State**: Persistent state in Supabase with in-memory Redis cache for active workflows
 - **Agent State**: Stateless agent design with state stored externally (Supabase, mem0)
 - **Event Sourcing**: Store all state changes as events for audit trail and state reconstruction
-- **Consistency Strategy**: 
+- **Consistency Strategy**:
   - Strong consistency for Supabase (curriculum knowledge - ACID compliance)
   - Eventual consistency for mem0 (optimization learnings - acceptable for non-critical updates)
 
@@ -119,7 +119,7 @@ _This document builds collaboratively through step-by-step discovery. Sections a
   - Unified rate limiting per service
   - Request/response transformation
   - Cost monitoring and alerts
-- **Rate Limiting Strategy**: 
+- **Rate Limiting Strategy**:
   - Per-service rate limits to prevent overruns
   - Priority queues for critical operations
   - Automatic throttling when approaching limits
@@ -151,7 +151,7 @@ _This document builds collaboratively through step-by-step discovery. Sections a
   - Separate data storage for educational vs. user profile data
   - Encryption at rest for all student data
   - Access controls restricting agent access to only necessary student data
-- **Consent Flow Management**: 
+- **Consent Flow Management**:
   - Age-appropriate consent mechanisms
   - Parent/guardian consent workflows (if applicable)
   - Clear privacy policies for educational context
@@ -241,7 +241,7 @@ _This document builds collaboratively through step-by-step discovery. Sections a
 
 **4. External API Management (RESOLVED):**
 - **Pattern**: Centralized API Gateway (Kong or Apache APISIX)
-- **Functionality**: 
+- **Functionality**:
   - Unified rate limiting per service
   - Cost monitoring and budget alerts
   - Request/response transformation
@@ -320,7 +320,7 @@ _This document builds collaboratively through step-by-step discovery. Sections a
 - **WebSocket Solution**: FastAPI native WebSocket support
 - **Capacity**: 1,000 simultaneous tutoring sessions
 - **Scaling**: Horizontal scaling with load balancing across WebSocket instances
-- **Session Management**: 
+- **Session Management**:
   - Session persistence in Supabase
   - Session restoration on reconnection
   - Session timeout handling (24-hour inactivity)
@@ -332,11 +332,11 @@ _This document builds collaboratively through step-by-step discovery. Sections a
 
 **9. Content Versioning & Consistency (RESOLVED):**
 - **Version History**: Full content version history maintained (FR65)
-- **Update Isolation**: 
+- **Update Isolation**:
   - In-progress learners continue with original version (FR64)
   - New learners receive latest version
   - Progress tracked against content version
-- **State Alignment**: 
+- **State Alignment**:
   - Maintain learner-content state alignment during updates (FR64)
   - Version migration strategy for progress tracking
 - **Storage Lifecycle**: Hot/archive/cleanup management (FR67)
@@ -828,41 +828,41 @@ class Settings(BaseSettings):
     secret_key: str
     algorithm: str = "HS256"
     access_token_expire_minutes: int = 1440
-    
+
     # Database
     supabase_url: str
     supabase_key: str
     supabase_service_key: str
-    
+
     # Semantic Memory
     mem0_api_url: str
     mem0_api_key: str
-    
+
     # Agent Framework (pydantic-ai)
     # pydantic-ai is model-agnostic - configure your LLM provider API keys:
     openai_api_key: str  # Primary LLM provider
     anthropic_api_key: str | None = None  # Optional: if using Anthropic
     gemini_api_key: str | None = None  # Optional: if using Google Gemini
-    
+
     # Orchestration
     prefect_api_url: str = "http://localhost:4200/api"
     prefect_api_key: str | None = None
-    
+
     # Message Queue
     rabbitmq_url: str = "amqp://guest:guest@localhost:5672/"
     redis_url: str = "redis://localhost:6379/0"
-    
+
     # API Gateway
     kong_admin_url: str = "http://localhost:8001"
     kong_api_url: str = "http://localhost:8000"
-    
+
     # Frontend URLs (for CORS)
     frontend_urls: list[str] = ["http://localhost:3000", "http://localhost:3001"]  # Development + Production
-    
+
     # External APIs
     brave_search_api_key: str | None = None
     youtube_api_key: str | None = None
-    
+
     class Config:
         env_file = ".env"
         case_sensitive = False
@@ -1982,7 +1982,7 @@ export function CourseCard({ courseId }: { courseId: number }) {
 
   if (isLoading) return <CourseCardSkeleton />;
   if (error) return <ErrorMessage error={error} />;
-  
+
   return (
     <div>
       <h2>{course.title}</h2>
@@ -3125,11 +3125,10 @@ Based on the architecture, the first implementation step should be:
 
 All sections completed:
 - ✅ Project Context Analysis
-- ✅ Starter Template Evaluation  
+- ✅ Starter Template Evaluation
 - ✅ Core Architectural Decisions (5 categories)
 - ✅ Implementation Patterns & Consistency Rules
 - ✅ Project Structure & Boundaries
 - ✅ Architecture Validation Results
 
 The architecture document is now a comprehensive guide for consistent, coherent implementation by AI agents.
-

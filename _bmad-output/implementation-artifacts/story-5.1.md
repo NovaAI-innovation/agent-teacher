@@ -43,7 +43,7 @@ so that I understand how to use the platform effectively.
 ## Dev Notes
 
 - **Architecture Patterns**: Multi-step onboarding flow. User preference tracking. Accessible design.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/user.py` - Updated with onboarding_completed
   - `frontend/components/course/OnboardingGuide.tsx` - Onboarding component
   - `frontend/app/layout.tsx` or dashboard - Onboarding integration
@@ -82,4 +82,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

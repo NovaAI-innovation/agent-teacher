@@ -64,7 +64,7 @@ so that I can access the course content and start learning.
 ## Dev Notes
 
 - **Architecture Patterns**: Enrollment tracking with status. Duplicate prevention. Analytics logging.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/enrollment.py` - Enrollment model
   - `backend/app/api/v1/courses.py` - Enrollment endpoint
   - `backend/app/services/enrollment_service.py` - Enrollment service
@@ -105,4 +105,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

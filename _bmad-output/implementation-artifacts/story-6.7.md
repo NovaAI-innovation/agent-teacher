@@ -47,7 +47,7 @@ so that tutoring sessions continue smoothly after network interruptions.
 ## Dev Notes
 
 - **Architecture Patterns**: Automatic reconnection. Message queuing. State restoration. User feedback.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `frontend/lib/websocket/reconnect.ts` - Reconnection logic
   - `frontend/lib/websocket/client.ts` - Updated WebSocket client
   - `frontend/lib/websocket/message_queue.ts` - Message queue
@@ -86,4 +86,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

@@ -46,7 +46,7 @@ so that I can learn concepts in the proper sequence.
 ## Dev Notes
 
 - **Architecture Patterns**: Sequential content access. Prerequisite checking. Completion tracking.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/learning.py` - Module access API
   - `frontend/app/learning/[courseId]/modules/[moduleId]/page.tsx` - Module page
   - `frontend/components/learning/ModuleNavigation.tsx` - Module navigation
@@ -84,4 +84,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

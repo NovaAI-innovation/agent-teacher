@@ -56,7 +56,7 @@ so that I can use the platform effectively regardless of my abilities.
 ## Dev Notes
 
 - **Architecture Patterns**: WCAG 2.1 AA compliance. Semantic HTML. ARIA labels. Screen reader support.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - All frontend components - Updated for accessibility
   - Forms - Updated with proper labels
   - Images - Updated with alt text

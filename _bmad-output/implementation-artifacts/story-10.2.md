@@ -53,7 +53,7 @@ so that user privacy rights are protected and legal requirements are met.
 ## Dev Notes
 
 - **Architecture Patterns**: GDPR compliance. Data access rights. Consent management. Retention policies.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/privacy/data_access.py` - Data access API
   - `backend/app/services/privacy/data_export_service.py` - Data export service
   - `backend/app/services/privacy/retention_service.py` - Retention service
@@ -94,4 +94,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

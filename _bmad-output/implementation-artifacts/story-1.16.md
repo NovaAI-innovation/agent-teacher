@@ -53,7 +53,7 @@ so that I can organize frontend code properly.
 ## Dev Notes
 
 - **Architecture Patterns**: Next.js App Router structure. Component organization by feature/domain.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `frontend/app/` - Next.js App Router pages and layouts
   - `frontend/components/` - React components organized by domain
   - `frontend/lib/` - Utility functions, hooks, and types
@@ -91,4 +91,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

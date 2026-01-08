@@ -52,7 +52,7 @@ so that I can get help while learning.
 ## Dev Notes
 
 - **Architecture Patterns**: WebSocket for real-time communication. Session management. Context-aware tutoring.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/tutoring.py` - WebSocket tutoring endpoint
   - `backend/app/models/tutoring_session.py` - Tutoring session model
   - `backend/app/services/tutoring_service.py` - Tutoring service
@@ -92,4 +92,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

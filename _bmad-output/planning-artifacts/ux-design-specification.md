@@ -538,7 +538,7 @@ The primary user action is learning through sequential module content, with the 
 **Primary Framework:**
 - **Tailwind CSS:** Utility-first CSS framework for rapid UI development
 - **Headless UI:** Unstyled, accessible UI components built by Tailwind team
-- **Additional Libraries:** 
+- **Additional Libraries:**
   - Radix UI (for additional accessible primitives if needed)
   - Framer Motion (for smooth animations, especially tutor interface)
 
@@ -1169,7 +1169,7 @@ flowchart TD
     AccessCourse --> Onboarding[Show Onboarding Guidance]
     Onboarding --> StartLearning[Begin Module 1]
     StartLearning --> End([User Successfully Enrolled])
-    
+
     style Start fill:#E5E7EB
     style End fill:#10B981
     style Error fill:#EF4444
@@ -1231,7 +1231,7 @@ flowchart TD
     Assessment --> End([Ready for Assessment])
     NextModule --> Start
     Review --> Read
-    
+
     style Start fill:#E5E7EB
     style End fill:#10B981
     style TutorOpens fill:#3B82F6
@@ -1290,7 +1290,7 @@ flowchart TD
     Retake -->|No| NextSteps[Show Next Steps]
     NextSteps --> Suggestions[Suggest: Next Module or Related Courses]
     Suggestions --> End([User Feels Accomplished<br/>Even if Retry Needed])
-    
+
     style Start fill:#E5E7EB
     style End fill:#10B981
     style ShowSuccess fill:#10B981
@@ -1345,7 +1345,7 @@ flowchart TD
     AhaMoment --> Enroll[Enroll in Course]
     Enroll --> ImmediateAccess[Immediate Course Access]
     ImmediateAccess --> End([User Feels Curious & Hopeful])
-    
+
     style Start fill:#E5E7EB
     style End fill:#3B82F6
     style AhaMoment fill:#10B981
@@ -3367,10 +3367,10 @@ Using standard Tailwind CSS breakpoints for consistency:
 
 <!-- Form with error message -->
 <label for="email">Email address</label>
-<input 
-  type="email" 
-  id="email" 
-  name="email" 
+<input
+  type="email"
+  id="email"
+  name="email"
   aria-required="true"
   aria-invalid="true"
   aria-describedby="email-error"
@@ -3449,4 +3449,3 @@ useEffect(() => {
 - [ ] Form labels and error messages
 - [ ] Skip links for navigation
 - [ ] Responsive and accessible on all breakpoints
-

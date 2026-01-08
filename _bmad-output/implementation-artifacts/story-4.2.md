@@ -49,7 +49,7 @@ so that I can detect failures and ensure reliable operation.
 ## Dev Notes
 
 - **Architecture Patterns**: Scheduled health monitoring. Metrics collection and storage. Real-time monitoring support.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/monitoring/agent_health_monitor.py` - Health monitoring service
   - `backend/app/api/v1/admin/health.py` - Health monitoring endpoint
   - `backend/app/models/agent_metrics.py` - Agent metrics model
@@ -88,4 +88,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

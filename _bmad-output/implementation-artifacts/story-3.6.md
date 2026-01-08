@@ -51,7 +51,7 @@ so that I can remove courses I no longer want to take.
 ## Dev Notes
 
 - **Architecture Patterns**: Soft delete or hard delete enrollment. Preserve progress data. Confirmation dialog for destructive action.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/courses.py` - Unenroll endpoint
   - `backend/app/services/enrollment_service.py` - Unenroll service
   - `frontend/app/my-courses/page.tsx` - Enrolled courses page
@@ -91,4 +91,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

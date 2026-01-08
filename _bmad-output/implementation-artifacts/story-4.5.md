@@ -47,7 +47,7 @@ so that courses can be created from topic requests without human content creator
 ## Dev Notes
 
 - **Architecture Patterns**: Agent-based content generation using pydantic-ai. Prefect workflow orchestration. Knowledge base storage.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/agents/curriculum_designer_agent.py` - Curriculum Designer Agent
   - `backend/app/api/v1/admin/courses.py` - Course generation endpoint
   - `backend/orchestration/workflows/course_generation_workflow.py` - Generation workflow
@@ -86,4 +86,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

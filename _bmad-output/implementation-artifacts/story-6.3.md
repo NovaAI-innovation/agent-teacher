@@ -36,7 +36,7 @@ so that tutoring is relevant and helpful.
 ## Dev Notes
 
 - **Architecture Patterns**: Context-aware agent responses. Knowledge base integration. Educational responses.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/agents/tutor_agent.py` - Enhanced tutor agent
   - `backend/app/services/tutoring_service.py` - Updated tutoring service
 - **Testing Standards**: Unit tests for context-aware responses, integration tests, E2E tests
@@ -73,4 +73,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

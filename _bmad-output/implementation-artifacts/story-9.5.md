@@ -44,7 +44,7 @@ so that I can debug issues and monitor system operations.
 ## Dev Notes
 
 - **Architecture Patterns**: Log viewing. Filtering and search. Structured log display.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/admin/logs.py` - Logs API
   - `frontend/app/admin/logs/page.tsx` - Logs dashboard
   - `frontend/components/admin/LogViewer.tsx` - Log viewer component
@@ -82,4 +82,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

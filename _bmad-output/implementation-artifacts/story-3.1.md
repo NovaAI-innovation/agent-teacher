@@ -49,7 +49,7 @@ so that learners can discover and access courses.
 ## Dev Notes
 
 - **Architecture Patterns**: Hierarchical data model (Course → Unit → Module). Redis caching for performance. Status-based workflow.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/course.py` - Course model
   - `backend/app/models/unit.py` - Unit model
   - `backend/app/models/module.py` - Module model
@@ -90,4 +90,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

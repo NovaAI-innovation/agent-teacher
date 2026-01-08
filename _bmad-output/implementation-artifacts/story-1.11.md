@@ -1,6 +1,6 @@
 # Story 1.11: Configure Backend Testing Infrastructure
 
-Status: ready-for-dev
+Status: done
 
 ## Story
 
@@ -19,38 +19,38 @@ so that I can write and run backend tests.
 
 ## Tasks / Subtasks
 
-- [ ] Task 1: Create pytest configuration (AC: 1, 6)
-  - [ ] Create `backend/tests/conftest.py`
-  - [ ] Configure pytest with pytest-asyncio plugin
-  - [ ] Set up pytest.ini or pyproject.toml pytest configuration
-  - [ ] Configure test discovery patterns
-  - [ ] Configure async test support
-- [ ] Task 2: Create test fixtures (AC: 2)
-  - [ ] Create test client fixture (FastAPI TestClient)
-  - [ ] Create test database fixture (in-memory or test database)
-  - [ ] Create mock service fixtures (Redis, RabbitMQ, Supabase)
-  - [ ] Create session fixture for database tests
-  - [ ] Configure fixture scopes appropriately
-- [ ] Task 3: Configure Testcontainers (AC: 3)
-  - [ ] Import testcontainers library
-  - [ ] Create Testcontainers fixtures for integration tests
-  - [ ] Configure containers for PostgreSQL, Redis, RabbitMQ (if needed)
-  - [ ] Set up container lifecycle management
-- [ ] Task 4: Create test directory structure (AC: 4)
-  - [ ] Ensure `backend/tests/unit/` exists with `__init__.py`
-  - [ ] Ensure `backend/tests/integration/` exists with `__init__.py`
-  - [ ] Ensure `backend/tests/e2e/` exists with `__init__.py`
-  - [ ] Create `backend/tests/__init__.py` if needed
-- [ ] Task 5: Verify pytest setup (AC: 5, 6)
-  - [ ] Run `cd backend && uv run pytest`
-  - [ ] Verify pytest executes without errors
-  - [ ] Verify test discovery finds test directories
-  - [ ] Create a simple test file to verify fixtures work
+- [x] Task 1: Create pytest configuration (AC: 1, 6)
+  - [x] Create `backend/tests/conftest.py`
+  - [x] Configure pytest with pytest-asyncio plugin
+  - [x] Set up pytest.ini or pyproject.toml pytest configuration
+  - [x] Configure test discovery patterns
+  - [x] Configure async test support
+- [x] Task 2: Create test fixtures (AC: 2)
+  - [x] Create test client fixture (FastAPI TestClient)
+  - [x] Create test database fixture (in-memory or test database)
+  - [x] Create mock service fixtures (Redis, RabbitMQ, Supabase)
+  - [x] Create session fixture for database tests
+  - [x] Configure fixture scopes appropriately
+- [x] Task 3: Configure Testcontainers (AC: 3)
+  - [x] Import testcontainers library
+  - [x] Create Testcontainers fixtures for integration tests
+  - [x] Configure containers for PostgreSQL, Redis, RabbitMQ (if needed)
+  - [x] Set up container lifecycle management
+- [x] Task 4: Create test directory structure (AC: 4)
+  - [x] Ensure `backend/tests/unit/` exists with `__init__.py`
+  - [x] Ensure `backend/tests/integration/` exists with `__init__.py`
+  - [x] Ensure `backend/tests/e2e/` exists with `__init__.py`
+  - [x] Create `backend/tests/__init__.py` if needed
+- [x] Task 5: Verify pytest setup (AC: 5, 6)
+  - [x] Run `cd backend && uv run pytest`
+  - [x] Verify pytest executes without errors
+  - [x] Verify test discovery finds test directories
+  - [x] Create a simple test file to verify fixtures work
 
 ## Dev Notes
 
 - **Architecture Patterns**: pytest with async support for FastAPI testing. Testcontainers for integration testing with real services.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/tests/conftest.py` - Pytest configuration and fixtures
   - `backend/tests/unit/` - Unit test directory
   - `backend/tests/integration/` - Integration test directory
@@ -77,17 +77,40 @@ so that I can write and run backend tests.
 
 ### Agent Model Used
 
-_To be filled by dev agent_
+Claude Sonnet 4.5 (via Cursor)
 
 ### Debug Log References
 
-_To be filled by dev agent_
+N/A - No debugging required, all tests passing
 
 ### Completion Notes List
 
-_To be filled by dev agent_
+1. Created comprehensive `backend/tests/conftest.py` with:
+   - Pytest configuration with async support (pytest-asyncio)
+   - Test settings fixture with test-specific configuration
+   - FastAPI app fixture with proper middleware and route setup
+   - Test client fixtures (both sync TestClient and async AsyncClient)
+   - Database fixtures using in-memory SQLite for unit tests
+   - Mock service fixtures for Redis, RabbitMQ, and Supabase
+   - Testcontainers fixtures for PostgreSQL, Redis, and RabbitMQ for integration tests
+
+2. Updated `backend/pyproject.toml` to include `pythonpath = ["."]` in pytest configuration for proper module discovery
+
+3. Verified test directory structure:
+   - `backend/tests/unit/` with `__init__.py` ✓
+   - `backend/tests/integration/` with `__init__.py` ✓
+   - `backend/tests/e2e/` with `__init__.py` ✓
+   - `backend/tests/__init__.py` ✓
+
+4. Created `backend/tests/test_example.py` with example tests verifying all fixtures work correctly
+
+5. Verified pytest setup:
+   - `uv run pytest` executes successfully ✓
+   - Test discovery works correctly (finds tests in all directories) ✓
+   - All 7 example tests pass ✓
 
 ### File List
 
-_To be filled by dev agent_
-
+- `backend/tests/conftest.py` - Pytest configuration and all test fixtures
+- `backend/tests/test_example.py` - Example tests verifying fixture functionality
+- `backend/pyproject.toml` - Updated with pythonpath configuration for pytest

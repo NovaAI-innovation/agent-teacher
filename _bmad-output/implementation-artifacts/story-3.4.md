@@ -59,7 +59,7 @@ so that I can decide if I want to enroll in the course.
 ## Dev Notes
 
 - **Architecture Patterns**: Dynamic routes with slugs. SEO optimization with metadata. Responsive design.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/courses.py` - Course detail endpoint
   - `backend/app/models/course.py` - Updated Course model
   - `frontend/app/courses/[slug]/page.tsx` - Course detail page
@@ -99,4 +99,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

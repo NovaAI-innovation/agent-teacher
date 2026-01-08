@@ -47,7 +47,7 @@ so that I can access all functionality without a mouse.
 ## Dev Notes
 
 - **Architecture Patterns**: Keyboard navigation. Focus management. Tab order optimization.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - All frontend components - Updated for keyboard navigation
   - Focus styles in `frontend/app/globals.css`
   - Keyboard event handlers in components

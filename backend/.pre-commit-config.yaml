@@ -1,0 +1,64 @@
+# Pre-commit hooks configuration for backend code quality
+# See https://pre-commit.com for more information
+
+repos:
+  # General file checks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: migrations/
+      - id: end-of-file-fixer
+        exclude: migrations/
+      - id: check-yaml
+      - id: check-added-large-files
+        args: ['--maxkb=1000']
+      - id: check-json
+      - id: check-toml
+      - id: check-merge-conflict
+      - id: debug-statements
+
+  # Black - Code formatting (runs first)
+  - repo: https://github.com/psf/black
+    rev: 24.10.0
+    hooks:
+      - id: black
+        exclude: ^(migrations/|\.venv/|build/|dist/)
+        args: ['--line-length=100']
+
+  # Ruff - Fast Python linter
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.6.9
+    hooks:
+      - id: ruff
+        exclude: ^(migrations/|\.venv/|build/|dist/)
+        args: ['--fix', '--exit-non-zero-on-fix']
+      - id: ruff-format
+        exclude: ^(migrations/|\.venv/|build/|dist/)
+
+  # Flake8 - Additional linting (runs after ruff)
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.0.0
+    hooks:
+      - id: flake8
+        exclude: ^(migrations/|\.venv/|build/|dist/)
+        args: ['--max-line-length=100', '--extend-ignore=E203,W503']
+
+  # mypy - Type checking (runs last)
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.11.2
+    hooks:
+      - id: mypy
+        exclude: ^(migrations/|\.venv/|build/|dist/|tests/)
+        args: [
+          '--ignore-missing-imports',
+          '--no-strict-optional',
+          '--disable-error-code=import-untyped'
+        ]
+
+# Default configuration
+default_language_version:
+  python: python3
+
+# Fail fast - stop on first failure
+fail_fast: false

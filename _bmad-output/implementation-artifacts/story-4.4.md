@@ -52,7 +52,7 @@ so that agents can generate high-quality content.
 ## Dev Notes
 
 - **Architecture Patterns**: Secure API key management. Rate limiting per service. Cost monitoring and capping. Graceful failure handling.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/llm/llm_client.py` - LLM service client
   - `backend/app/services/monitoring/cost_monitor.py` - Cost monitoring
   - `backend/app/models/api_usage.py` - API usage tracking model
@@ -91,4 +91,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

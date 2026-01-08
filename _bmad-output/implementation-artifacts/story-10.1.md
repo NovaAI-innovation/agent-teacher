@@ -53,7 +53,7 @@ so that I can exercise my right to be forgotten under GDPR.
 ## Dev Notes
 
 - **Architecture Patterns**: GDPR compliance. Data deletion. Audit logging. Retention policies.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/data_deletion_request.py` - Deletion request model
   - `backend/app/api/v1/privacy/data_deletion.py` - Data deletion API
   - `backend/app/services/privacy/data_deletion_service.py` - Data deletion service
@@ -92,4 +92,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

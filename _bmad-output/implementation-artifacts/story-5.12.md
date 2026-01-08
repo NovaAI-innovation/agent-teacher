@@ -46,7 +46,7 @@ so that I can complete actions that failed due to temporary issues.
 ## Dev Notes
 
 - **Architecture Patterns**: Retry logic with limits. Loading states. Clear feedback.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `frontend/lib/utils/retry.ts` - Retry utility
   - `frontend/components/ui/RetryButton.tsx` - Retry button component
   - `frontend/components/ui/ErrorMessage.tsx` - Updated with retry
@@ -85,4 +85,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

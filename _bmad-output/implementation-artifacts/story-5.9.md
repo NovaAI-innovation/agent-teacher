@@ -46,7 +46,7 @@ so that I feel a sense of achievement and progress.
 ## Dev Notes
 
 - **Architecture Patterns**: Completion detection. Achievement tracking. Celebratory acknowledgments.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/learning_service.py` - Completion detection
   - `frontend/components/learning/CompletionAcknowledgment.tsx` - Acknowledgment component
   - `backend/app/models/achievement.py` - Achievement model
@@ -85,4 +85,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

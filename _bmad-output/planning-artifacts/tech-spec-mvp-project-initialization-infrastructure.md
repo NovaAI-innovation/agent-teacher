@@ -589,13 +589,13 @@ This tech spec can be organized into logical epics for project management:
   - Framework: pytest with pytest-asyncio for async code
   - Mocking: Use unittest.mock or pytest-mock for external dependencies
   - Coverage: Aim for 80%+ coverage on business logic (services, utils)
-  
+
 - **Integration Tests**: Test API endpoints with test database
   - Location: `backend/tests/integration/`
   - Framework: pytest with httpx for async HTTP client
   - Database: Use Testcontainers with PostgreSQL for real database testing
   - Setup: Each test gets clean database state via fixtures
-  
+
 - **E2E Tests**: Test complete workflows (deferred to feature implementation)
   - Location: `backend/tests/e2e/`
   - Framework: Playwright for browser automation
@@ -606,7 +606,7 @@ This tech spec can be organized into logical epics for project management:
   - Location: `frontend/tests/components/`
   - Framework: React Testing Library (to be added when implementing components)
   - Scope: Component rendering, user interactions, props handling
-  
+
 - **E2E Tests**: Playwright tests for user journeys (setup structure, implementation deferred)
   - Location: `frontend/tests/e2e/`
   - Framework: Playwright
@@ -695,4 +695,3 @@ An epic from this spec is considered "Done" when:
 - Multi-region deployment configuration
 - Advanced caching strategies
 - CDN configuration for static assets
-

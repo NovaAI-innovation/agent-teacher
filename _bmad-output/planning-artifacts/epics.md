@@ -365,69 +365,69 @@ FR88: Epic 9 - Platform Administration & Monitoring (Reset test learner accounts
 ## Epic List
 
 ### Epic 1: Project Foundation & Infrastructure Setup
-**User Outcome:** Developers have a complete, working project scaffold to begin feature development  
-**FRs covered:** All infrastructure requirements from tech spec (Tasks 1-38)  
-**Value:** Enables all future development work  
+**User Outcome:** Developers have a complete, working project scaffold to begin feature development
+**FRs covered:** All infrastructure requirements from tech spec (Tasks 1-38)
+**Value:** Enables all future development work
 **Implementation Notes:** This epic includes complete directory structure, backend FastAPI initialization, frontend Next.js initialization, Docker Compose setup, testing infrastructure, CI/CD pipelines, and all foundational tooling. All 45 tasks from the tech spec are included in this epic.
 
 ### Epic 2: User Authentication & Account Management
-**User Outcome:** Learners can create accounts, securely log in, and manage their profile settings  
-**FRs covered:** FR1, FR2, FR3, FR4  
-**Value:** Users can establish their identity and access the platform securely  
+**User Outcome:** Learners can create accounts, securely log in, and manage their profile settings
+**FRs covered:** FR1, FR2, FR3, FR4
+**Value:** Users can establish their identity and access the platform securely
 **Implementation Notes:** JWT authentication with refresh tokens, password reset flows, account settings management. Requires Epic 1 to be complete.
 
 ### Epic 3: Course Discovery & Enrollment
-**User Outcome:** Learners can browse, search, view course details, and enroll in courses  
-**FRs covered:** FR5, FR7, FR8, FR9, FR10, FR11, FR12, FR13, FR59, FR66  
-**Value:** Users can find and join courses they want to learn  
+**User Outcome:** Learners can browse, search, view course details, and enroll in courses
+**FRs covered:** FR5, FR7, FR8, FR9, FR10, FR11, FR12, FR13, FR59, FR66
+**Value:** Users can find and join courses they want to learn
 **Implementation Notes:** Course catalog, search/filter functionality, SEO-optimized course pages, enrollment management. Requires Epic 1 and Epic 2 to be complete.
 
 ### Epic 4: Autonomous Content Generation & Quality Assurance
-**User Outcome:** System autonomously generates high-quality course content with quality validation  
-**FRs covered:** FR6, FR16, FR17, FR18, FR19, FR20, FR21, FR41, FR42, FR43, FR44, FR45, FR46, FR64, FR65, FR67, FR70, FR74, FR75, FR78, FR79  
-**Value:** Platform can create educational content without human content creators  
+**User Outcome:** System autonomously generates high-quality course content with quality validation
+**FRs covered:** FR6, FR16, FR17, FR18, FR19, FR20, FR21, FR41, FR42, FR43, FR44, FR45, FR46, FR64, FR65, FR67, FR70, FR74, FR75, FR78, FR79
+**Value:** Platform can create educational content without human content creators
 **Implementation Notes:** Multi-agent orchestration, content generation workflows, quality assurance, agent health monitoring, rate limiting, API cost management. Requires Epic 1 to be complete. Can be developed in parallel with Epic 2 and Epic 3.
 
 ### Epic 5: Learning Experience & Assessments
-**User Outcome:** Learners can access course content sequentially, take assessments, receive feedback, and complete modules  
-**FRs covered:** FR14, FR15, FR22, FR23, FR24, FR25, FR26, FR27, FR28, FR29, FR68, FR69, FR80, FR81, FR85  
-**Value:** Users can learn from course content and demonstrate understanding through assessments  
+**User Outcome:** Learners can access course content sequentially, take assessments, receive feedback, and complete modules
+**FRs covered:** FR14, FR15, FR22, FR23, FR24, FR25, FR26, FR27, FR28, FR29, FR68, FR69, FR80, FR81, FR85
+**Value:** Users can learn from course content and demonstrate understanding through assessments
 **Implementation Notes:** Sequential module access, assessment system, automatic grading, feedback delivery, error handling, loading states, empty states. Requires Epic 1, Epic 2, Epic 3, and Epic 4 to be complete.
 
 ### Epic 6: Interactive Real-Time Tutoring
-**User Outcome:** Learners can get real-time, context-aware help from an AI tutor during learning  
-**FRs covered:** FR30, FR31, FR32, FR33, FR34, FR76, FR77  
-**Value:** Users receive personalized, immediate help when learning  
+**User Outcome:** Learners can get real-time, context-aware help from an AI tutor during learning
+**FRs covered:** FR30, FR31, FR32, FR33, FR34, FR76, FR77
+**Value:** Users receive personalized, immediate help when learning
 **Implementation Notes:** WebSocket-based real-time communication, knowledge base integration, conversation history, session persistence, graceful reconnection. Requires Epic 1, Epic 2, Epic 3, Epic 4, and Epic 5 to be complete.
 
 ### Epic 7: Progress Tracking & Achievements
-**User Outcome:** Learners can view their learning progress across all courses and celebrate milestones  
-**FRs covered:** FR35, FR36, FR37, FR38, FR39, FR40, FR86  
-**Value:** Users can track their learning journey and see their accomplishments  
+**User Outcome:** Learners can view their learning progress across all courses and celebrate milestones
+**FRs covered:** FR35, FR36, FR37, FR38, FR39, FR40, FR86
+**Value:** Users can track their learning journey and see their accomplishments
 **Implementation Notes:** Multi-level progress tracking (module, unit, course), progress visualization, milestone tracking, achievement system. Requires Epic 1, Epic 2, Epic 3, and Epic 5 to be complete.
 
 ### Epic 8: Self-Improvement & Platform Optimization
-**User Outcome:** Platform autonomously improves content quality and reduces human intervention over time  
-**FRs covered:** FR47, FR48, FR49, FR50, FR51, FR52, FR53  
-**Value:** Platform becomes better over time without proportional human effort  
+**User Outcome:** Platform autonomously improves content quality and reduces human intervention over time
+**FRs covered:** FR47, FR48, FR49, FR50, FR51, FR52, FR53
+**Value:** Platform becomes better over time without proportional human effort
 **Implementation Notes:** Metrics collection, baseline comparison, improvement identification, automated content updates, self-improvement tracking. Requires Epic 1 and Epic 4 to be complete. Can be developed in parallel with other epics after Epic 4.
 
 ### Epic 9: Platform Administration & Monitoring
-**User Outcome:** Administrators can monitor platform health, manage course generation, and configure quality thresholds  
-**FRs covered:** FR54, FR55, FR56, FR57, FR58, FR63, FR87, FR88  
-**Value:** Platform operators can manage and optimize the system  
+**User Outcome:** Administrators can monitor platform health, manage course generation, and configure quality thresholds
+**FRs covered:** FR54, FR55, FR56, FR57, FR58, FR63, FR87, FR88
+**Value:** Platform operators can manage and optimize the system
 **Implementation Notes:** Admin dashboard, health monitoring, course generation management, QA reports, quality threshold configuration, agent logs, notifications, test data management. Requires Epic 1 to be complete. Can be developed in parallel with other epics.
 
 ### Epic 10: Data Privacy & Compliance
-**User Outcome:** System complies with GDPR and other privacy regulations, and users can manage their data  
-**FRs covered:** FR62, FR71, FR72, FR73  
-**Value:** Users' privacy rights are protected and platform meets legal requirements  
+**User Outcome:** System complies with GDPR and other privacy regulations, and users can manage their data
+**FRs covered:** FR62, FR71, FR72, FR73
+**Value:** Users' privacy rights are protected and platform meets legal requirements
 **Implementation Notes:** GDPR compliance, data deletion workflows, audit logging, data persistence and recovery. Requires Epic 1 and Epic 2 to be complete. Can be developed in parallel with other epics.
 
 ### Epic 11: Accessibility & Responsive Design
-**User Outcome:** Platform is accessible to all users across all devices with WCAG 2.1 AA compliance  
-**FRs covered:** FR60, FR61, FR82, FR83, FR84  
-**Value:** Platform is usable by everyone, regardless of ability or device  
+**User Outcome:** Platform is accessible to all users across all devices with WCAG 2.1 AA compliance
+**FRs covered:** FR60, FR61, FR82, FR83, FR84
+**Value:** Platform is usable by everyone, regardless of ability or device
 **Implementation Notes:** WCAG 2.1 AA compliance, responsive design (mobile, tablet, desktop), keyboard navigation, screen reader support, text size and contrast adjustments. Requires Epic 1 to be complete. Should be integrated throughout all frontend epics (Epic 2, Epic 3, Epic 5, Epic 6, Epic 7) but tracked as a separate epic for completeness.
 
 ---

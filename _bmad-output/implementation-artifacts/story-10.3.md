@@ -48,7 +48,7 @@ so that I can support audit requirements and debugging.
 ## Dev Notes
 
 - **Architecture Patterns**: Action logging. Audit trail. Secure logging. Privacy-aware logging.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/user_action_log.py` - Action log model
   - `backend/app/services/logging/action_logger.py` - Action logging service
   - `backend/app/middleware/logging.py` - Updated with action logging
@@ -88,4 +88,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

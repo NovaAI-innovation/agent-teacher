@@ -47,7 +47,7 @@ so that I can autonomously determine what content needs enhancement.
 ## Dev Notes
 
 - **Architecture Patterns**: Automated opportunity identification. Prioritization. Impact analysis.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/improvement_opportunity.py` - Opportunity model
   - `backend/app/services/analytics/improvement_identifier.py` - Opportunity identification service
   - `backend/app/api/v1/admin/improvement_opportunities.py` - Opportunity API
@@ -86,4 +86,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

@@ -54,7 +54,7 @@ so that frontend code quality and E2E testing are set up.
 ## Dev Notes
 
 - **Architecture Patterns**: ESLint for linting, Prettier for formatting, Playwright for E2E testing. Standard Next.js tooling setup.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `frontend/.eslintrc.json` - ESLint configuration
   - `frontend/.prettierrc` - Prettier configuration
   - `frontend/tests/e2e/playwright.config.ts` - Playwright configuration
@@ -94,4 +94,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

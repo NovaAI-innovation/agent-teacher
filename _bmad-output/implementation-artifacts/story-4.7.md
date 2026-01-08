@@ -45,7 +45,7 @@ so that learners have comprehensive educational materials.
 ## Dev Notes
 
 - **Architecture Patterns**: Agent-based content generation. Quality evaluation integration. Knowledge base storage.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/agents/content_generator_agent.py` - Content Generator Agent
   - `backend/app/services/knowledge/knowledge_base.py` - Knowledge base storage
   - `backend/app/services/agents/qa_agent.py` - QA Agent integration
@@ -83,4 +83,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

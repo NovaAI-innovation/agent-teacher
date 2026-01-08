@@ -40,7 +40,7 @@ so that I know what I've completed and what's remaining.
 ## Dev Notes
 
 - **Architecture Patterns**: Completion status display. Multi-level status. Accessible indicators.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/progress.py` - Completion status API
   - `frontend/components/progress/CompletionStatus.tsx` - Completion status component
   - Course detail pages updated with completion status
@@ -78,4 +78,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

@@ -43,7 +43,7 @@ so that tutoring sessions can reference previous conversations.
 ## Dev Notes
 
 - **Architecture Patterns**: Conversation persistence. History management. Session continuity.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/tutoring_message.py` - Conversation message model
   - `backend/app/services/tutoring_service.py` - Updated with history management
   - `backend/app/services/agents/tutor_agent.py` - Updated to use history
@@ -82,4 +82,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

@@ -49,7 +49,7 @@ so that learners receive immediate feedback.
 ## Dev Notes
 
 - **Architecture Patterns**: Automatic grading service. Fast grading (<5 seconds). Accurate scoring.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/assessment_service.py` - Assessment grading service
   - `backend/app/models/assessment_response.py` - Assessment response model
   - `backend/app/api/v1/assessments.py` - Grading API endpoint
@@ -87,4 +87,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

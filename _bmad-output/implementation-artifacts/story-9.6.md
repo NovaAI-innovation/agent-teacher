@@ -48,7 +48,7 @@ so that I can control access to the platform.
 ## Dev Notes
 
 - **Architecture Patterns**: User management. RBAC. Secure access control.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/admin/users.py` - User management API
   - `backend/app/models/role.py` - Role model
   - `backend/app/models/permission.py` - Permission model
@@ -88,4 +88,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

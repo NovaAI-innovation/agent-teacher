@@ -63,7 +63,7 @@ so that I can regain access if I forget my password.
 ## Dev Notes
 
 - **Architecture Patterns**: Secure token-based password reset. Email service integration. Token expiration and one-time use.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/password_reset_token.py` - Reset token model
   - `backend/app/api/v1/auth.py` - Password reset endpoints
   - `backend/app/services/email_service.py` - Email sending service
@@ -105,4 +105,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

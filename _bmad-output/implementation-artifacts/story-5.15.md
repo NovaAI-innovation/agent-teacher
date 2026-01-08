@@ -48,7 +48,7 @@ so that I can get assistance when I need it.
 ## Dev Notes
 
 - **Architecture Patterns**: Help documentation. FAQ system. Support contact. Accessible help.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `frontend/app/help/page.tsx` - Help page
   - `frontend/app/help/support/page.tsx` - Support page
   - `backend/app/api/v1/help.py` - Help API
@@ -87,4 +87,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

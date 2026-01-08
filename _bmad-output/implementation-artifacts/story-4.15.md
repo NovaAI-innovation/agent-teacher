@@ -53,7 +53,7 @@ so that I can monitor operations and improve agent performance.
 ## Dev Notes
 
 - **Architecture Patterns**: Structured logging. Correlation IDs. Searchable logs. Analytics.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/logging/agent_logger.py` - Agent logging service
   - `backend/app/models/agent_activity.py` - Agent activity model
   - `backend/app/api/v1/admin/agent_logs.py` - Agent logs API
@@ -93,4 +93,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

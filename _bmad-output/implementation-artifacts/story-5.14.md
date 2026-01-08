@@ -45,7 +45,7 @@ so that I know the system is working and how long operations will take.
 ## Dev Notes
 
 - **Architecture Patterns**: Loading indicators. Progress feedback. Accessible loading states.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `frontend/components/ui/LoadingIndicator.tsx` - Loading indicator component
   - `frontend/components/ui/ProgressFeedback.tsx` - Progress feedback component
   - Various pages/components updated with loading states
@@ -83,4 +83,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

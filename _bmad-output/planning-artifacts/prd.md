@@ -1097,4 +1097,3 @@ Each course includes:
 - Course generation may be delayed but not blocked by individual agent failures
 - Progress tracking must continue to function during partial system failures
 - Users must receive clear status messages during degraded operations
-

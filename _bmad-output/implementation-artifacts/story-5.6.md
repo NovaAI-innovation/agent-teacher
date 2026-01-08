@@ -51,7 +51,7 @@ so that I understand what I got right and what I need to improve.
 ## Dev Notes
 
 - **Architecture Patterns**: Feedback generation. Educational feedback. Accessible results display.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/assessment_service.py` - Updated with feedback generation
   - `frontend/app/learning/[courseId]/modules/[moduleId]/assessment/results/page.tsx` - Results page
   - `frontend/components/assessment/FeedbackDisplay.tsx` - Feedback display component
@@ -90,4 +90,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

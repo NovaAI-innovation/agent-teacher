@@ -1,6 +1,6 @@
 # Story 1.10: Set Up Backend Models and Database Migrations
 
-Status: ready-for-dev
+Status: done
 
 ## Story
 
@@ -19,43 +19,43 @@ so that I can define database schemas and manage migrations.
 
 ## Tasks / Subtasks
 
-- [ ] Task 1: Create BaseModel with common fields (AC: 1)
-  - [ ] Create `backend/app/models/base.py`
-  - [ ] Import SQLModel
-  - [ ] Create BaseModel class with common fields:
+- [x] Task 1: Create BaseModel with common fields (AC: 1)
+  - [x] Create `backend/app/models/base.py`
+  - [x] Import SQLModel
+  - [x] Create BaseModel class with common fields:
     - `id`: Primary key (UUID or integer)
     - `created_at`: Timestamp (datetime)
     - `updated_at`: Timestamp (datetime)
-  - [ ] Configure timestamps to auto-update on modification
-  - [ ] Export BaseModel for use in other models
-- [ ] Task 2: Initialize Alembic (AC: 2)
-  - [ ] Run `alembic init migrations` in backend directory
-  - [ ] Verify `backend/migrations/` directory is created
-  - [ ] Verify `backend/migrations/versions/` directory exists
-  - [ ] Verify `backend/migrations/env.py` and `backend/migrations/alembic.ini` are created
-- [ ] Task 3: Configure Alembic env.py for SQLModel (AC: 3, 4)
-  - [ ] Edit `backend/migrations/env.py`
-  - [ ] Import database URL from config
-  - [ ] Configure SQLModel engine creation
-  - [ ] Import BaseModel from `app.models.base`
-  - [ ] Configure autogenerate to detect model changes
-  - [ ] Set up target_metadata to include all models
-- [ ] Task 4: Configure alembic.ini (AC: 5)
-  - [ ] Edit `backend/migrations/alembic.ini`
-  - [ ] Set sqlalchemy.url (can use environment variable or placeholder)
-  - [ ] Configure script location and version location
-  - [ ] Set up logging configuration
-- [ ] Task 5: Verify Alembic setup (AC: 6)
-  - [ ] Run `cd backend && alembic current`
-  - [ ] Verify connection to database works
-  - [ ] Verify shows "empty" or current revision
-  - [ ] Test creating a test migration: `alembic revision --autogenerate -m "test"`
-  - [ ] Verify migration file is created in `migrations/versions/`
+  - [x] Configure timestamps to auto-update on modification
+  - [x] Export BaseModel for use in other models
+- [x] Task 2: Initialize Alembic (AC: 2)
+  - [x] Run `alembic init migrations` in backend directory
+  - [x] Verify `backend/migrations/` directory is created
+  - [x] Verify `backend/migrations/versions/` directory exists
+  - [x] Verify `backend/migrations/env.py` and `backend/alembic.ini` are created
+- [x] Task 3: Configure Alembic env.py for SQLModel (AC: 3, 4)
+  - [x] Edit `backend/migrations/env.py`
+  - [x] Import database URL from config
+  - [x] Configure SQLModel engine creation
+  - [x] Import BaseModel from `app.models.base`
+  - [x] Configure autogenerate to detect model changes
+  - [x] Set up target_metadata to include all models
+- [x] Task 4: Configure alembic.ini (AC: 5)
+  - [x] Edit `backend/alembic.ini`
+  - [x] Set sqlalchemy.url (configured to use environment variable via env.py)
+  - [x] Configure script location and version location
+  - [x] Set up logging configuration
+- [x] Task 5: Verify Alembic setup (AC: 6)
+  - [x] Run `cd backend && alembic current`
+  - [x] Verify connection to database works
+  - [x] Verify shows "empty" or current revision
+  - [x] Test creating a test migration: `alembic revision --autogenerate -m "test"`
+  - [x] Verify migration file is created in `migrations/versions/`
 
 ## Dev Notes
 
 - **Architecture Patterns**: SQLModel for ORM, Alembic for database migrations. BaseModel pattern for common fields across all models.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/base.py` - BaseModel with common fields
   - `backend/migrations/` - Alembic migration directory
   - `backend/migrations/env.py` - Alembic environment configuration
@@ -96,4 +96,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

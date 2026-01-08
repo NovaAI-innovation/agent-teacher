@@ -54,7 +54,7 @@ so that content generation tasks are distributed efficiently.
 ## Dev Notes
 
 - **Architecture Patterns**: Hierarchical orchestration with Prefect. JSON-RPC 2.0 for agent communication. Task queuing with RabbitMQ.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/orchestration/workflows/course_generation_workflow.py` - Prefect workflow
   - `backend/app/services/orchestration/master_orchestrator.py` - Master orchestrator
   - `backend/app/services/agents/*.py` - Specialized agents
@@ -94,4 +94,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

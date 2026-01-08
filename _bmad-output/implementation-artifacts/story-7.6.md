@@ -41,7 +41,7 @@ so that I understand how much of a course I've completed.
 ## Dev Notes
 
 - **Architecture Patterns**: Percentage calculation. Real-time updates. Accessible display.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/progress_service.py` - Updated with percentage calculation
   - `backend/app/api/v1/progress.py` - Updated with percentages
   - `frontend/components/progress/ProgressPercentage.tsx` - Percentage display component
@@ -79,4 +79,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

@@ -49,7 +49,7 @@ so that I can start over if I want to retake the course.
 ## Dev Notes
 
 - **Architecture Patterns**: Progress reset with confirmation. Selective data clearing. Action logging.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/learning.py` - Reset progress API
   - `backend/app/services/learning_service.py` - Reset progress service
   - `frontend/components/learning/ResetProgressDialog.tsx` - Reset confirmation dialog
@@ -88,4 +88,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

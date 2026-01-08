@@ -47,7 +47,7 @@ so that quality checks occur at the right points in the content generation workf
 ## Dev Notes
 
 - **Architecture Patterns**: Quality gates in workflow. Configurable triggers. Workflow control.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/quality_gate.py` - Quality gate model
   - `backend/app/services/quality/pre_deployment_gates.py` - Pre-deployment gates
   - `backend/app/services/quality/post_deployment_gates.py` - Post-deployment gates
@@ -87,4 +87,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

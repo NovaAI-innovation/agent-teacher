@@ -50,7 +50,7 @@ so that I understand what happened and what to do next.
 ## Dev Notes
 
 - **Architecture Patterns**: User-friendly error messages. Error boundaries. Accessible error display.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `frontend/components/ui/ErrorMessage.tsx` - Error message component
   - `frontend/components/ui/ErrorBoundary.tsx` - Error boundary component
   - `frontend/lib/utils/errorHandling.ts` - Error handling utilities
@@ -89,4 +89,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

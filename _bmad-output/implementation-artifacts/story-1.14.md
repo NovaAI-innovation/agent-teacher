@@ -40,7 +40,7 @@ so that the frontend can communicate with the backend.
 ## Dev Notes
 
 - **Architecture Patterns**: Axios for HTTP client, React Query for data fetching/caching, Zustand for state management (if needed).
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `frontend/package.json` - Updated with additional dependencies
   - `frontend/.env.local.example` - Environment variable template
   - `frontend/.env.local` - Local environment variables (gitignored)
@@ -78,4 +78,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

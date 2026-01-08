@@ -46,7 +46,7 @@ so that learners can demonstrate their understanding.
 ## Dev Notes
 
 - **Architecture Patterns**: Agent-based assessment generation. Quality evaluation. Module alignment.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/agents/assessment_creator_agent.py` - Assessment Creator Agent
   - `backend/app/models/assessment.py` - Assessment model
   - `backend/app/services/knowledge/knowledge_base.py` - Knowledge base storage
@@ -85,4 +85,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

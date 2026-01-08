@@ -55,7 +55,7 @@ so that I can read content comfortably.
 ## Dev Notes
 
 - **Architecture Patterns**: User preferences. Accessibility settings. CSS custom properties. Persistent settings.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/models/user_accessibility_settings.py` - Accessibility settings model
   - `backend/app/api/v1/profile/accessibility_settings.py` - Settings API
   - `frontend/app/settings/accessibility/page.tsx` - Accessibility settings page

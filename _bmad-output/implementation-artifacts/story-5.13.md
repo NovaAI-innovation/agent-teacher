@@ -44,7 +44,7 @@ so that I understand when there is no content or data to display.
 ## Dev Notes
 
 - **Architecture Patterns**: Empty state components. Consistent messaging. Actionable suggestions.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `frontend/components/ui/EmptyState.tsx` - Empty state component
   - Various pages updated with empty states
 - **Testing Standards**: Unit tests for components, E2E tests for empty states, accessibility tests
@@ -81,4 +81,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

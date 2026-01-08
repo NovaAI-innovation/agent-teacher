@@ -48,7 +48,7 @@ so that I can demonstrate my understanding.
 ## Dev Notes
 
 - **Architecture Patterns**: Assessment access with module completion check. Form validation. Accessible assessment interface.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/assessments.py` - Assessment API
   - `frontend/app/learning/[courseId]/modules/[moduleId]/assessment/page.tsx` - Assessment page
   - `frontend/components/assessment/AssessmentForm.tsx` - Assessment form
@@ -86,4 +86,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

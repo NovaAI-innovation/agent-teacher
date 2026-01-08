@@ -46,7 +46,7 @@ so that I can securely end my session.
 ## Dev Notes
 
 - **Architecture Patterns**: Token revocation via blacklist. Client-side state clearing. Protected route handling.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/api/v1/auth.py` - Logout endpoint
   - `backend/app/services/auth_service.py` - Logout service
   - `backend/app/middleware/authentication.py` - Updated auth middleware
@@ -86,4 +86,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-

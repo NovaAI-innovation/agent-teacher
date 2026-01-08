@@ -48,7 +48,7 @@ so that only high-quality content is published.
 ## Dev Notes
 
 - **Architecture Patterns**: Agent-based quality evaluation. Measurable benchmarks. Quality scoring system.
-- **Source Tree Components**: 
+- **Source Tree Components**:
   - `backend/app/services/agents/qa_agent.py` - QA/Review Agent
   - `backend/app/models/content_quality.py` - Quality score model
   - `backend/app/services/quality/quality_evaluator.py` - Quality evaluation service
@@ -87,4 +87,3 @@ _To be filled by dev agent_
 ### File List
 
 _To be filled by dev agent_
-
