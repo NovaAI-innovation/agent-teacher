@@ -17,9 +17,9 @@ from app.config import get_database_url  # noqa: E402
 
 # Import all models here so Alembic can detect them for autogenerate
 # When new models are created, add them here
-# Example: from app.models.user import User
-# Example: from app.models.course import Course
-# For now, we only have BaseModel, but this structure is ready for future models
+from app.models.course import Course  # noqa: F401, E402
+from app.models.module import Module  # noqa: F401, E402
+from app.models.unit import Unit  # noqa: F401, E402
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

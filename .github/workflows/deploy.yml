@@ -1,0 +1,28 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy Application
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deployment placeholder
+        run: |
+          echo "🚀 Deployment workflow"
+          echo "This is a placeholder for the deployment pipeline."
+          echo "Full deployment implementation will be added in deployment stories."
+          echo ""
+          echo "Deployment steps will include:"
+          echo "  - Build backend and frontend"
+          echo "  - Run tests"
+          echo "  - Deploy to production environment"
+          echo "  - Run health checks"
+          echo "  - Rollback on failure"

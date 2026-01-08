@@ -1,6 +1,6 @@
 # Story 1.17: Configure Frontend Code Quality and Testing Tools
 
-Status: ready-for-dev
+Status: completed
 
 ## Story
 
@@ -20,36 +20,36 @@ so that frontend code quality and E2E testing are set up.
 
 ## Tasks / Subtasks
 
-- [ ] Task 1: Configure ESLint (AC: 1, 6)
-  - [ ] Verify `frontend/.eslintrc.json` exists (may be created by Next.js)
-  - [ ] Configure Next.js ESLint rules
-  - [ ] Configure TypeScript ESLint rules
-  - [ ] Add any custom rules as needed
-  - [ ] Test running `npm run lint`
-  - [ ] Verify ESLint executes successfully
-- [ ] Task 2: Configure Prettier (AC: 2, 3)
-  - [ ] Create `frontend/.prettierrc` (or .prettierrc.json)
-  - [ ] Configure Prettier formatting rules (printWidth, tabWidth, semi, singleQuote, etc.)
-  - [ ] Create `.prettierignore` if needed
-  - [ ] Install prettier if not already installed
-  - [ ] Configure ESLint to work with Prettier (eslint-config-prettier)
-  - [ ] Test Prettier formatting
-- [ ] Task 3: Install and configure Playwright (AC: 4, 7)
-  - [ ] Install Playwright: `npm install -D @playwright/test`
-  - [ ] Run `npx playwright install` to install browsers
-  - [ ] Create `frontend/tests/e2e/playwright.config.ts`
-  - [ ] Configure Playwright with base URL, test directory, etc.
-  - [ ] Add Playwright scripts to package.json
-- [ ] Task 4: Create test directory structure (AC: 5)
-  - [ ] Create `frontend/tests/__mocks__/` directory
-  - [ ] Create `frontend/tests/components/` directory
-  - [ ] Create `frontend/tests/lib/` directory
-  - [ ] Create `frontend/tests/e2e/` directory (if not created by Playwright)
-- [ ] Task 5: Verify configuration (AC: 3, 6, 7)
-  - [ ] Test ESLint: `npm run lint`
-  - [ ] Test Prettier: `npm run format` (if script exists)
-  - [ ] Verify no conflicts between ESLint and Prettier
-  - [ ] Test Playwright: `npx playwright test` (should pass with no tests)
+- [x] Task 1: Configure ESLint (AC: 1, 6)
+  - [x] Verify `frontend/eslint.config.mjs` exists (Next.js 16 uses flat config, not .eslintrc.json)
+  - [x] Configure Next.js ESLint rules
+  - [x] Configure TypeScript ESLint rules
+  - [x] Add any custom rules as needed
+  - [x] Test running `npm run lint`
+  - [x] Verify ESLint executes successfully
+- [x] Task 2: Configure Prettier (AC: 2, 3)
+  - [x] Create `frontend/.prettierrc`
+  - [x] Configure Prettier formatting rules (printWidth, tabWidth, semi, singleQuote, etc.)
+  - [x] Create `.prettierignore` if needed
+  - [x] Install prettier if not already installed
+  - [x] Configure ESLint to work with Prettier (eslint-config-prettier)
+  - [x] Test Prettier formatting
+- [x] Task 3: Install and configure Playwright (AC: 4, 7)
+  - [x] Install Playwright: `npm install -D @playwright/test` (already installed)
+  - [x] Run `npx playwright install` to install browsers
+  - [x] Create `frontend/tests/e2e/playwright.config.ts`
+  - [x] Configure Playwright with base URL, test directory, etc.
+  - [x] Add Playwright scripts to package.json
+- [x] Task 4: Create test directory structure (AC: 5)
+  - [x] Create `frontend/tests/__mocks__/` directory
+  - [x] Create `frontend/tests/components/` directory
+  - [x] Create `frontend/tests/lib/` directory
+  - [x] Create `frontend/tests/e2e/` directory (if not created by Playwright)
+- [x] Task 5: Verify configuration (AC: 3, 6, 7)
+  - [x] Test ESLint: `npm run lint`
+  - [x] Test Prettier: `npm run format:check`
+  - [x] Verify no conflicts between ESLint and Prettier
+  - [x] Test Playwright: `npx playwright test --list` (works, no tests yet)
 
 ## Dev Notes
 
@@ -81,16 +81,34 @@ so that frontend code quality and E2E testing are set up.
 
 ### Agent Model Used
 
-_To be filled by dev agent_
+Auto (Cursor AI)
 
 ### Debug Log References
 
-_To be filled by dev agent_
+N/A - No errors encountered during configuration
 
 ### Completion Notes List
 
-_To be filled by dev agent_
+- Updated `frontend/eslint.config.mjs` to integrate with Prettier using eslint-config-prettier
+- Created `frontend/.prettierrc` with consistent formatting rules
+- Created `frontend/.prettierignore` to exclude build artifacts and dependencies
+- Created `frontend/tests/e2e/playwright.config.ts` with full Playwright configuration
+- Created all test directories: `tests/__mocks__/`, `tests/components/`, `tests/lib/`, `tests/e2e/`
+- Updated `package.json` scripts: added `lint:fix`, `format`, `format:check`, `test:e2e`, `test:e2e:ui`, `test:e2e:headed`
+- Installed Playwright browsers (chromium)
+- ESLint runs successfully (detects some existing code issues that need separate fixes)
+- Prettier runs successfully (detects formatting issues in existing files)
+- Playwright configuration verified and ready for E2E tests
+- Note: Next.js 16 uses `eslint.config.mjs` (flat config) instead of `.eslintrc.json`
 
 ### File List
 
-_To be filled by dev agent_
+- `frontend/eslint.config.mjs` - Updated with Prettier integration
+- `frontend/.prettierrc` - Created Prettier configuration
+- `frontend/.prettierignore` - Created Prettier ignore file
+- `frontend/tests/e2e/playwright.config.ts` - Created Playwright configuration
+- `frontend/package.json` - Updated with new scripts
+- `frontend/tests/__mocks__/` - Created directory
+- `frontend/tests/components/` - Created directory
+- `frontend/tests/lib/` - Created directory
+- `frontend/tests/e2e/` - Created directory (contains playwright.config.ts)
