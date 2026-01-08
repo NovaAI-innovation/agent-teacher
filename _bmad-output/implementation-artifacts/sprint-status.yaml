@@ -1,0 +1,165 @@
+# generated: 2026-01-07T22:47:08.437597
+# project: agent-teacher
+# project_key: agent-teacher
+# tracking_system: file-system
+# story_location: {project-root}/_bmad-output/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog → in-progress: Automatically when first story is created (via create-story)
+#   - in-progress → done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - SM typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: 2026-01-07T22:47:08.437635
+project: agent-teacher
+project_key: agent-teacher
+tracking_system: file-system
+story_location: {project-root}/_bmad-output/implementation-artifacts
+
+development_status:
+  epic-1: backlog
+  1-1-initialize-git-repository-and-project-structure: in-progress
+  1-2-create-project-documentation-and-environment-templates: ready-for-dev
+  1-3-initialize-backend-fastapi-application-structure: ready-for-dev
+  1-4-configure-backend-dependencies-and-package-management: ready-for-dev
+  1-5-set-up-backend-environment-configuration: ready-for-dev
+  1-6-initialize-backend-database-and-service-connections: ready-for-dev
+  1-7-create-fastapi-application-entry-point-and-health-checks: ready-for-dev
+  1-8-set-up-backend-api-router-structure: ready-for-dev
+  1-9-configure-backend-middleware-and-utilities: ready-for-dev
+  1-10-set-up-backend-models-and-database-migrations: ready-for-dev
+  1-11-configure-backend-testing-infrastructure: ready-for-dev
+  1-12-set-up-backend-development-tooling: ready-for-dev
+  1-13-initialize-frontend-next-js-application: ready-for-dev
+  1-14-configure-frontend-dependencies-and-environment: ready-for-dev
+  1-15-set-up-frontend-api-client-and-websocket-structure: ready-for-dev
+  1-16-create-frontend-component-and-app-router-structure: ready-for-dev
+  1-17-configure-frontend-code-quality-and-testing-tools: ready-for-dev
+  1-18-set-up-docker-compose-development-environment: ready-for-dev
+  1-19-create-development-utility-scripts: ready-for-dev
+  1-20-configure-ci-cd-pipelines: ready-for-dev
+  1-21-verify-complete-setup-and-initialize-git-repository: ready-for-dev
+  epic-1-retrospective: optional
+  epic-2: backlog
+  2-1-user-registration-with-email-and-password: ready-for-dev
+  2-2-user-login-with-email-and-password: ready-for-dev
+  2-3-user-logout: ready-for-dev
+  2-4-password-reset-via-email: ready-for-dev
+  2-5-manage-account-settings: ready-for-dev
+  epic-2-retrospective: optional
+  epic-3: backlog
+  3-1-maintain-course-catalog: ready-for-dev
+  3-2-browse-available-courses: ready-for-dev
+  3-3-search-and-filter-courses: ready-for-dev
+  3-4-view-course-introduction-and-description: ready-for-dev
+  3-5-enroll-in-a-course: ready-for-dev
+  3-6-unenroll-from-a-course: ready-for-dev
+  3-7-seo-optimized-course-pages: ready-for-dev
+  epic-3-retrospective: optional
+  epic-4: backlog
+  4-1-coordinate-multiple-specialized-agents-for-content-generation: ready-for-dev
+  4-2-monitor-agent-health-and-performance: ready-for-dev
+  4-3-handle-agent-failures-with-fallback-mechanisms: ready-for-dev
+  4-4-connect-to-external-ai-llm-services: ready-for-dev
+  4-5-generate-course-introductions-from-topic-requests: ready-for-dev
+  4-6-generate-units-with-modules-for-courses: ready-for-dev
+  4-7-generate-text-based-learning-content-for-modules: ready-for-dev
+  4-8-generate-assessments-aligned-to-module-content: ready-for-dev
+  4-9-evaluate-content-quality-against-benchmark-standards: ready-for-dev
+  4-10-update-content-based-on-quality-feedback: ready-for-dev
+  4-11-track-content-quality-scores-over-time: ready-for-dev
+  4-12-manage-content-storage-lifecycle: ready-for-dev
+  4-13-rollback-content-deployments-if-quality-degrades: ready-for-dev
+  4-14-define-quality-gate-timing-and-triggers: ready-for-dev
+  4-15-log-agent-activities-for-monitoring-and-improvement: ready-for-dev
+  epic-4-retrospective: optional
+  epic-5: backlog
+  5-1-provide-onboarding-guidance-for-new-learners: ready-for-dev
+  5-2-access-enrolled-course-content: ready-for-dev
+  5-3-access-module-content-sequentially: ready-for-dev
+  5-4-take-assessments-for-completed-modules: ready-for-dev
+  5-5-automatically-grade-assessments: ready-for-dev
+  5-6-provide-feedback-on-assessment-performance: ready-for-dev
+  5-7-view-assessment-results-and-feedback: ready-for-dev
+  5-8-retake-assessments: ready-for-dev
+  5-9-receive-completion-acknowledgments: ready-for-dev
+  5-10-reset-progress-within-a-course: ready-for-dev
+  5-11-display-clear-error-messages: ready-for-dev
+  5-12-retry-failed-operations: ready-for-dev
+  5-13-display-appropriate-empty-states: ready-for-dev
+  5-14-provide-loading-indicators-and-progress-feedback: ready-for-dev
+  5-15-access-help-documentation-and-support-resources: ready-for-dev
+  epic-5-retrospective: optional
+  epic-6: backlog
+  6-1-initiate-chat-based-tutoring-sessions: ready-for-dev
+  6-2-tutor-queries-knowledge-base-for-module-specific-content: ready-for-dev
+  6-3-provide-context-aware-responses-to-learner-questions: ready-for-dev
+  6-4-maintain-tutoring-conversation-history: ready-for-dev
+  6-5-access-tutoring-during-module-learning: ready-for-dev
+  6-6-persist-and-restore-tutoring-sessions: ready-for-dev
+  6-7-handle-websocket-reconnection-gracefully: ready-for-dev
+  epic-6-retrospective: optional
+  epic-7: backlog
+  7-1-track-learner-progress-at-module-level: ready-for-dev
+  7-2-track-learner-progress-at-unit-level: ready-for-dev
+  7-3-track-learner-progress-at-course-level: ready-for-dev
+  7-4-view-progress-across-all-enrolled-courses: ready-for-dev
+  7-5-view-completion-status-for-modules-units-and-courses: ready-for-dev
+  7-6-calculate-and-display-progress-percentages: ready-for-dev
+  7-7-track-and-display-learner-milestones-and-achievements: ready-for-dev
+  epic-7-retrospective: optional
+  epic-8: backlog
+  8-1-collect-metrics-on-content-quality-post-deployment: ready-for-dev
+  8-2-compare-current-metrics-against-baseline-benchmarks: ready-for-dev
+  8-3-identify-improvement-opportunities-based-on-metrics: ready-for-dev
+  8-4-trigger-content-updates-based-on-improvement-analysis: ready-for-dev
+  8-5-track-self-improvement-actions-and-outcomes: ready-for-dev
+  8-6-reduce-human-intervention-requirements-over-time: ready-for-dev
+  8-7-view-self-improvement-metrics-and-trends: ready-for-dev
+  epic-8-retrospective: optional
+  epic-9: backlog
+  9-1-view-platform-health-metrics: ready-for-dev
+  9-2-monitor-course-generation-activities: ready-for-dev
+  9-3-review-quality-assurance-reports: ready-for-dev
+  9-4-configure-quality-benchmark-thresholds: ready-for-dev
+  9-5-access-agent-coordination-logs: ready-for-dev
+  9-6-send-notifications-for-key-events: ready-for-dev
+  9-7-seed-test-courses-and-test-data: ready-for-dev
+  9-8-reset-test-learner-accounts: ready-for-dev
+  epic-9-retrospective: optional
+  epic-10: backlog
+  10-1-request-data-deletion: ready-for-dev
+  10-2-comply-with-data-privacy-regulations-gdpr: ready-for-dev
+  10-3-log-user-actions-for-audit-and-debugging: ready-for-dev
+  10-4-persist-and-recover-data-in-case-of-service-interruption: ready-for-dev
+  epic-10-retrospective: optional
+  epic-11: backlog
+  11-1-support-responsive-design-across-devices: ready-for-dev
+  11-2-meet-wcag-2-1-aa-accessibility-standards: ready-for-dev
+  11-3-support-keyboard-only-navigation: ready-for-dev
+  11-4-support-screen-reader-accessibility-for-course-content: ready-for-dev
+  11-5-adjust-text-size-and-contrast-settings: ready-for-dev
+  epic-11-retrospective: optional
